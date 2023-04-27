@@ -10,20 +10,37 @@
     div {
       float: left;
     }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      height: 100vh;
+      background-color: #f1f1f1;
+    }
+    input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
   </style>
+
   <body>
     <div>
-      Player1.
-      <select name="player">
-        <option value="">Player</option>
-        <option value="학생">김희승</option>
-        <option value="기타">최선일</option>
-        <option value="회사원">전성일</option>
-        <option value="기타">김진호</option>
-      </select>
+      
+      Player1
+        <select name="player">
+          <option value="">Player</option>
+          <option value="학생">김희승</option>
+          <option value="기타">최선일</option>
+          <option value="회사원">전성일</option>
+          <option value="기타">김진호</option>
+        </select>
+      </form>
 
       <select name="job">
-        <option value="">직업선택</option>
+        <option value="">Race</option>
         <option value="학생">저그</option>
         <option value="회사원">테란</option>
         <option value="기타">프로토스</option>
@@ -32,7 +49,7 @@
     <div>&nbsp;&nbsp;VS&nbsp;&nbsp;</div>
 
     <div>
-      Player2.
+      Player2
       <select name="player">
         <option value="">Player</option>
         <option value="학생">김희승</option>
@@ -41,11 +58,13 @@
         <option value="기타">김진호</option>
       </select>
       <select name="job">
-        <option value="">직업선택</option>
+        <option value="">Race</option>
         <option value="학생">저그</option>
         <option value="회사원">테란</option>
         <option value="기타">프로토스</option>
-      </select>
+      </select>      
     </div>
+    <div><input type="submit" name="" id=""></div>
+    
   </body>
 </html>
